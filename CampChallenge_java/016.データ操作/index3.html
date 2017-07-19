@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>入力フォーム</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+        body{
+            background: #eeeeee;
+        }
+        
+        h2{color: red;}
+        
+        div{
+            background: #ffffff;
+            width: 500px;
+            padding: 10px;
+            text-align: center;
+            margin: 40px auto;
+        }
+        </style>
+
+    </head>
+    <body>
+        <div>
+        <h2>入力フォーム</h2>
+        <form action="./data3" method="post">
+            名前：
+            <input type="text" name="txtName"><br>
+            性別：
+            <label><input type="radio" name="rdoSample" value="男" checked>男性</label>　
+            <label><input type="radio" name="rdoSample" value="女">女性</label><br>
+            血液型：
+            <select name="cmbList">
+                <option value="A">A型</option>
+                <option value="B">B型</option>
+                <option value="O">O型</option>
+                <option value="AB">AB型</option>
+            </select><br>
+            趣味：
+            <textarea name="mulText"></textarea><br>
+            <input type="submit" name="btnSubmit">
+            <input type="reset" name="btnReset">
+        </form>
+        </div>
+    </body>
+</html>
