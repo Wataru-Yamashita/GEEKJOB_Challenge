@@ -1,0 +1,3 @@
+UPDATE profiles SET name = '吉田 茂' WHERE profilesID = 2;
+
+SELECT profilesID, name, tell, age, birthday FROM profiles WHERE profilesID = 2;
