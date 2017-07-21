@@ -1,0 +1,1 @@
+SELECT profilesID, name, tell, age, birthday FROM profiles WHERE name Like '%実%';
