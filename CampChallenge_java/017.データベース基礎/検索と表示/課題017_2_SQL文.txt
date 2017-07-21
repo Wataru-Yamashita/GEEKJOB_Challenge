@@ -1,0 +1,1 @@
+SELECT profilesID, name, tell, age, birthday FROM profiles WHERE profilesID = 3;
